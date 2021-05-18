@@ -36,7 +36,7 @@ def page_not_found(e):
 	return render_template("404.html"),404
 
 
-#internal server error
+#internal server error. 
 @app.errorhandler(500)
 
 def internal_server_error(e):
